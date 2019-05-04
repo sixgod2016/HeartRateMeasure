@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A41D92A226D9F0C00CAA505 /* HeartLive.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A41D927226D9F0C00CAA505 /* HeartLive.m */; };
+		0A41D92B226D9F0C00CAA505 /* HeartBeat.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A41D929226D9F0C00CAA505 /* HeartBeat.m */; };
+		0A9FFBE3227BE747001D5C58 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FFBE2227BE747001D5C58 /* Record.swift */; };
+		0A9FFBE6227BE975001D5C58 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FFBE5227BE975001D5C58 /* BaseNavigationController.swift */; };
+		0A9FFBE8227BEAA6001D5C58 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FFBE7227BEAA6001D5C58 /* BaseTabBarController.swift */; };
+		0A9FFBEA227BEC92001D5C58 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FFBE9227BEC92001D5C58 /* ChartViewController.swift */; };
+		0A9FFBEC227BF4BE001D5C58 /* Basic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FFBEB227BF4BE001D5C58 /* Basic.swift */; };
+		0A9FFBEE227BFC93001D5C58 /* DataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FFBED227BFC93001D5C58 /* DataView.swift */; };
+		0A9FFBF0227C59FB001D5C58 /* CoreDataOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FFBEF227C59FB001D5C58 /* CoreDataOperation.swift */; };
+		0A9FFBF2227D4F17001D5C58 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FFBF1227D4F17001D5C58 /* UIColor+Extension.swift */; };
+		0A9FFBF4227D52FD001D5C58 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FFBF3227D52FD001D5C58 /* HistoryViewController.swift */; };
+		0A9FFBF6227D58F2001D5C58 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FFBF5227D58F2001D5C58 /* Date+Extension.swift */; };
+		0AE7DBC4227D8F1D0089C1A9 /* BalloonMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE7DBC3227D8F1D0089C1A9 /* BalloonMarker.swift */; };
+		9E756206ABE8C67E40654543 /* Pods_HeartCare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02233293B739DEA7FFE19FC8 /* Pods_HeartCare.framework */; };
+		FDA6FC142261F0CB004B843D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA6FC132261F0CB004B843D /* AppDelegate.swift */; };
+		FDA6FC162261F0CB004B843D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA6FC152261F0CB004B843D /* ViewController.swift */; };
+		FDA6FC192261F0CB004B843D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA6FC172261F0CB004B843D /* Main.storyboard */; };
+		FDA6FC1C2261F0CB004B843D /* HeartCare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FDA6FC1A2261F0CB004B843D /* HeartCare.xcdatamodeld */; };
+		FDA6FC1E2261F0CC004B843D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA6FC1D2261F0CC004B843D /* Assets.xcassets */; };
+		FDA6FC212261F0CC004B843D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA6FC1F2261F0CC004B843D /* LaunchScreen.storyboard */; };
+		FDA6FC292261F101004B843D /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA6FC282261F101004B843D /* RootViewController.swift */; };
+		FDD2548D2261F4EF00A1EEDB /* HeartBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD2548C2261F4EF00A1EEDB /* HeartBeat.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02233293B739DEA7FFE19FC8 /* Pods_HeartCare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeartCare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A41D925226D9F0B00CAA505 /* HeartCare-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HeartCare-Bridging-Header.h"; sourceTree = "<group>"; };
+		0A41D926226D9F0C00CAA505 /* HeartLive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartLive.h; sourceTree = "<group>"; };
+		0A41D927226D9F0C00CAA505 /* HeartLive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartLive.m; sourceTree = "<group>"; };
+		0A41D928226D9F0C00CAA505 /* HeartBeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartBeat.h; sourceTree = "<group>"; };
+		0A41D929226D9F0C00CAA505 /* HeartBeat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartBeat.m; sourceTree = "<group>"; };
+		0A9FFBE2227BE747001D5C58 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		0A9FFBE5227BE975001D5C58 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		0A9FFBE7227BEAA6001D5C58 /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		0A9FFBE9227BEC92001D5C58 /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		0A9FFBEB227BF4BE001D5C58 /* Basic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basic.swift; sourceTree = "<group>"; };
+		0A9FFBED227BFC93001D5C58 /* DataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataView.swift; sourceTree = "<group>"; };
+		0A9FFBEF227C59FB001D5C58 /* CoreDataOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataOperation.swift; sourceTree = "<group>"; };
+		0A9FFBF1227D4F17001D5C58 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		0A9FFBF3227D52FD001D5C58 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		0A9FFBF5227D58F2001D5C58 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		0AE7DBC3227D8F1D0089C1A9 /* BalloonMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalloonMarker.swift; sourceTree = "<group>"; };
+		1289C63442E9BD00CF3CCA20 /* Pods-HeartCare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeartCare.debug.xcconfig"; path = "Target Support Files/Pods-HeartCare/Pods-HeartCare.debug.xcconfig"; sourceTree = "<group>"; };
+		768B1A152585D5EB7D5A3F1E /* Pods-HeartCare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeartCare.release.xcconfig"; path = "Target Support Files/Pods-HeartCare/Pods-HeartCare.release.xcconfig"; sourceTree = "<group>"; };
+		FDA6FC102261F0CB004B843D /* HeartCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA6FC132261F0CB004B843D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDA6FC152261F0CB004B843D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDA6FC182261F0CB004B843D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDA6FC1B2261F0CB004B843D /* HeartCare.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HeartCare.xcdatamodel; sourceTree = "<group>"; };
+		FDA6FC1D2261F0CC004B843D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDA6FC202261F0CC004B843D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDA6FC222261F0CC004B843D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA6FC282261F101004B843D /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		FDD2548C2261F4EF00A1EEDB /* HeartBeat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartBeat.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDA6FC0D2261F0CB004B843D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E756206ABE8C67E40654543 /* Pods_HeartCare.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A9FFBE4227BE94B001D5C58 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				0A9FFBE5227BE975001D5C58 /* BaseNavigationController.swift */,
+				0A9FFBE7227BEAA6001D5C58 /* BaseTabBarController.swift */,
+				0A9FFBEB227BF4BE001D5C58 /* Basic.swift */,
+				0A9FFBF1227D4F17001D5C58 /* UIColor+Extension.swift */,
+				0A9FFBF5227D58F2001D5C58 /* Date+Extension.swift */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		0AE28C8B2271CC8400EA0760 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0A9FFBE2227BE747001D5C58 /* Record.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		114C6A3F93DB949BCB254A96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1289C63442E9BD00CF3CCA20 /* Pods-HeartCare.debug.xcconfig */,
+				768B1A152585D5EB7D5A3F1E /* Pods-HeartCare.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7760AF3D74658FBB958D2B85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02233293B739DEA7FFE19FC8 /* Pods_HeartCare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDA6FC072261F0CB004B843D = {
+			isa = PBXGroup;
+			children = (
+				FDA6FC122261F0CB004B843D /* HeartCare */,
+				FDA6FC112261F0CB004B843D /* Products */,
+				114C6A3F93DB949BCB254A96 /* Pods */,
+				7760AF3D74658FBB958D2B85 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FDA6FC112261F0CB004B843D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDA6FC102261F0CB004B843D /* HeartCare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDA6FC122261F0CB004B843D /* HeartCare */ = {
+			isa = PBXGroup;
+			children = (
+				0A9FFBE4227BE94B001D5C58 /* Basic */,
+				0AE28C8B2271CC8400EA0760 /* Model */,
+				FDA6FC132261F0CB004B843D /* AppDelegate.swift */,
+				FDA6FC152261F0CB004B843D /* ViewController.swift */,
+				FDA6FC282261F101004B843D /* RootViewController.swift */,
+				0A9FFBF3227D52FD001D5C58 /* HistoryViewController.swift */,
+				0A9FFBED227BFC93001D5C58 /* DataView.swift */,
+				0A9FFBE9227BEC92001D5C58 /* ChartViewController.swift */,
+				0AE7DBC3227D8F1D0089C1A9 /* BalloonMarker.swift */,
+				0A9FFBEF227C59FB001D5C58 /* CoreDataOperation.swift */,
+				FDD2548C2261F4EF00A1EEDB /* HeartBeat.swift */,
+				0A41D928226D9F0C00CAA505 /* HeartBeat.h */,
+				0A41D929226D9F0C00CAA505 /* HeartBeat.m */,
+				0A41D926226D9F0C00CAA505 /* HeartLive.h */,
+				0A41D927226D9F0C00CAA505 /* HeartLive.m */,
+				FDA6FC172261F0CB004B843D /* Main.storyboard */,
+				FDA6FC1D2261F0CC004B843D /* Assets.xcassets */,
+				FDA6FC1F2261F0CC004B843D /* LaunchScreen.storyboard */,
+				FDA6FC222261F0CC004B843D /* Info.plist */,
+				FDA6FC1A2261F0CB004B843D /* HeartCare.xcdatamodeld */,
+				0A41D925226D9F0B00CAA505 /* HeartCare-Bridging-Header.h */,
+			);
+			path = HeartCare;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDA6FC0F2261F0CB004B843D /* HeartCare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA6FC252261F0CC004B843D /* Build configuration list for PBXNativeTarget "HeartCare" */;
+			buildPhases = (
+				07476D9A09CC09EF6DA5CE17 /* [CP] Check Pods Manifest.lock */,
+				FDA6FC0C2261F0CB004B843D /* Sources */,
+				FDA6FC0D2261F0CB004B843D /* Frameworks */,
+				FDA6FC0E2261F0CB004B843D /* Resources */,
+				9719317E2AA7E5B1A0E84411 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeartCare;
+			productName = HeartCare;
+			productReference = FDA6FC102261F0CB004B843D /* HeartCare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDA6FC082261F0CB004B843D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = 222;
+				TargetAttributes = {
+					FDA6FC0F2261F0CB004B843D = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = FDA6FC0B2261F0CB004B843D /* Build configuration list for PBXProject "HeartCare" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDA6FC072261F0CB004B843D;
+			productRefGroup = FDA6FC112261F0CB004B843D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDA6FC0F2261F0CB004B843D /* HeartCare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDA6FC0E2261F0CB004B843D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA6FC212261F0CC004B843D /* LaunchScreen.storyboard in Resources */,
+				FDA6FC1E2261F0CC004B843D /* Assets.xcassets in Resources */,
+				FDA6FC192261F0CB004B843D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07476D9A09CC09EF6DA5CE17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeartCare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9719317E2AA7E5B1A0E84411 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeartCare/Pods-HeartCare-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HeartCare/Pods-HeartCare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDA6FC0C2261F0CB004B843D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A41D92A226D9F0C00CAA505 /* HeartLive.m in Sources */,
+				FDA6FC1C2261F0CB004B843D /* HeartCare.xcdatamodeld in Sources */,
+				0A9FFBF0227C59FB001D5C58 /* CoreDataOperation.swift in Sources */,
+				0AE7DBC4227D8F1D0089C1A9 /* BalloonMarker.swift in Sources */,
+				0A9FFBE3227BE747001D5C58 /* Record.swift in Sources */,
+				FDA6FC162261F0CB004B843D /* ViewController.swift in Sources */,
+				0A9FFBEA227BEC92001D5C58 /* ChartViewController.swift in Sources */,
+				FDA6FC292261F101004B843D /* RootViewController.swift in Sources */,
+				0A9FFBF4227D52FD001D5C58 /* HistoryViewController.swift in Sources */,
+				0A9FFBEC227BF4BE001D5C58 /* Basic.swift in Sources */,
+				0A9FFBF6227D58F2001D5C58 /* Date+Extension.swift in Sources */,
+				0A9FFBE8227BEAA6001D5C58 /* BaseTabBarController.swift in Sources */,
+				0A9FFBF2227D4F17001D5C58 /* UIColor+Extension.swift in Sources */,
+				0A9FFBEE227BFC93001D5C58 /* DataView.swift in Sources */,
+				FDA6FC142261F0CB004B843D /* AppDelegate.swift in Sources */,
+				0A41D92B226D9F0C00CAA505 /* HeartBeat.m in Sources */,
+				0A9FFBE6227BE975001D5C58 /* BaseNavigationController.swift in Sources */,
+				FDD2548D2261F4EF00A1EEDB /* HeartBeat.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDA6FC172261F0CB004B843D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDA6FC182261F0CB004B843D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDA6FC1F2261F0CC004B843D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDA6FC202261F0CC004B843D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDA6FC232261F0CC004B843D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDA6FC242261F0CC004B843D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDA6FC262261F0CC004B843D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1289C63442E9BD00CF3CCA20 /* Pods-HeartCare.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 449RC5XGYX;
+				INFOPLIST_FILE = HeartCare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SM.HeartCare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HeartCare/HeartCare-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDA6FC272261F0CC004B843D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 768B1A152585D5EB7D5A3F1E /* Pods-HeartCare.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 449RC5XGYX;
+				INFOPLIST_FILE = HeartCare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SM.HeartCare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HeartCare/HeartCare-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDA6FC0B2261F0CB004B843D /* Build configuration list for PBXProject "HeartCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA6FC232261F0CC004B843D /* Debug */,
+				FDA6FC242261F0CC004B843D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDA6FC252261F0CC004B843D /* Build configuration list for PBXNativeTarget "HeartCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA6FC262261F0CC004B843D /* Debug */,
+				FDA6FC272261F0CC004B843D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FDA6FC1A2261F0CB004B843D /* HeartCare.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FDA6FC1B2261F0CB004B843D /* HeartCare.xcdatamodel */,
+			);
+			currentVersion = FDA6FC1B2261F0CB004B843D /* HeartCare.xcdatamodel */;
+			path = HeartCare.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FDA6FC082261F0CB004B843D /* Project object */;
+}
